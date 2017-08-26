@@ -16,8 +16,6 @@
 		77E15FAF1E9463320092B24A /* RelationshipOneToMany.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 77E15FAD1E9463320092B24A /* RelationshipOneToMany.xcdatamodeld */; };
 		77E15FB11E9463320092B24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77E15FB01E9463320092B24A /* Assets.xcassets */; };
 		77E15FB41E9463320092B24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77E15FB21E9463320092B24A /* LaunchScreen.storyboard */; };
-		77E15FBF1E9463320092B24A /* RelationshipOneToManyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E15FBE1E9463320092B24A /* RelationshipOneToManyTests.swift */; };
-		77E15FCA1E9463320092B24A /* RelationshipOneToManyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E15FC91E9463320092B24A /* RelationshipOneToManyUITests.swift */; };
 		77E15FD81E9464590092B24A /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E15FD71E9464590092B24A /* DetailViewController.swift */; };
 		77E15FDB1E9465190092B24A /* StudentDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E15FDA1E9465190092B24A /* StudentDelegate.swift */; };
 		77E15FDD1E9465360092B24A /* StudentDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77E15FDC1E9465360092B24A /* StudentDataSource.swift */; };
@@ -55,11 +53,7 @@
 		77E15FB31E9463320092B24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		77E15FB51E9463320092B24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77E15FBA1E9463320092B24A /* RelationshipOneToManyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelationshipOneToManyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		77E15FBE1E9463320092B24A /* RelationshipOneToManyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipOneToManyTests.swift; sourceTree = "<group>"; };
-		77E15FC01E9463320092B24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77E15FC51E9463320092B24A /* RelationshipOneToManyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RelationshipOneToManyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		77E15FC91E9463320092B24A /* RelationshipOneToManyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelationshipOneToManyUITests.swift; sourceTree = "<group>"; };
-		77E15FCB1E9463320092B24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77E15FD71E9464590092B24A /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		77E15FDA1E9465190092B24A /* StudentDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDelegate.swift; sourceTree = "<group>"; };
 		77E15FDC1E9465360092B24A /* StudentDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentDataSource.swift; sourceTree = "<group>"; };
@@ -107,8 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				77E15FA51E9463310092B24A /* RelationshipOneToMany */,
-				77E15FBD1E9463320092B24A /* RelationshipOneToManyTests */,
-				77E15FC81E9463320092B24A /* RelationshipOneToManyUITests */,
 				77E15FA41E9463310092B24A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -134,24 +126,6 @@
 				77374A391E96460D006AF724 /* Support Files */,
 			);
 			path = RelationshipOneToMany;
-			sourceTree = "<group>";
-		};
-		77E15FBD1E9463320092B24A /* RelationshipOneToManyTests */ = {
-			isa = PBXGroup;
-			children = (
-				77E15FBE1E9463320092B24A /* RelationshipOneToManyTests.swift */,
-				77E15FC01E9463320092B24A /* Info.plist */,
-			);
-			path = RelationshipOneToManyTests;
-			sourceTree = "<group>";
-		};
-		77E15FC81E9463320092B24A /* RelationshipOneToManyUITests */ = {
-			isa = PBXGroup;
-			children = (
-				77E15FC91E9463320092B24A /* RelationshipOneToManyUITests.swift */,
-				77E15FCB1E9463320092B24A /* Info.plist */,
-			);
-			path = RelationshipOneToManyUITests;
 			sourceTree = "<group>";
 		};
 		77E15FD91E9465060092B24A /* ViewControllers */ = {
@@ -336,7 +310,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77E15FBF1E9463320092B24A /* RelationshipOneToManyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,7 +317,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				77E15FCA1E9463320092B24A /* RelationshipOneToManyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
